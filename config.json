@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "network": ["mcp.m.todaq.net", "pay.m.todaq.net"],
+    "shell": true,
+    "filesystem": false,
+    "credentials": false
+  }
+}
