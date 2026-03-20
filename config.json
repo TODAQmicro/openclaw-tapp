@@ -1,8 +1,15 @@
 {
-  "permissions": {
-    "network": ["mcp.m.todaq.net", "pay.m.todaq.net"],
-    "shell": true,
-    "filesystem": false,
-    "credentials": false
+  "name": "tapp",
+  "version": "1.0.0",
+  "description": "OpenClaw skill for the Tapp marketplace",
+  "mcpServer": "https://mcp.m.todaq.net",
+  "paymentApi": "https://pay.m.todaq.net",
+  "performance": {
+    "catalogTtlSeconds": 60,
+    "timeoutMs": 30000
+  },
+  "safety": {
+    "allowedOperations": ["read", "call", "register"],
+    "requireConfirmation": true
   }
 }
