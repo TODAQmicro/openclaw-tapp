@@ -50,6 +50,7 @@ mcporter call tapp.<tool_name> [args]
 | Tool | Description |
 |------|-------------|
 | `agent_wallet_info` | Check your twin balance and hostname |
+| `check_wallet_balance` | Get all your twins and their current DQ balances |
 
 ### Dynamic (from marketplace catalog)
 List available marketplace tools:
