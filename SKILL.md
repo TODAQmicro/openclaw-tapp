@@ -2,6 +2,7 @@
 name: tapp
 description: "Use and publish Tapp marketplace tools. Use when: calling paywalled API tools from the Tapp marketplace, checking wallet balance, or helping a user register as a Tapp provider to earn per-call payments from their own tools. Supports local stdio mode (Claude Desktop) and hosted HTTP mode (claude.ai). NOT for: direct payment API calls or free tools."
 homepage: https://github.com/todaqmicro/mcp
+license: MIT
 metadata:
   {
     "openclaw":
